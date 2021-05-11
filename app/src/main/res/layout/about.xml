@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tek1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="15dp" />
+
+        <ImageView android:id="@+id/logo"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:background="@drawable/icon">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tek2"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="\n Strobuzz \n versi 1.1 \n Desember 2020 \n"
+            android:gravity="center_horizontal"
+            android:textColor="#009900"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/tek3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Dimas Dwi Priambodo"
+            android:textColor="#0033FF"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tek4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="dimasdwi340@gmail.com \n"
+            android:textColor="#990000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tek5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="supported by: \n STIKI Malang \n"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/btok"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="OK" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">StroBuzz</string>
+    <string name="title_home">Varietas</string>
+    <string name="title_dashboard">Kalkulasi</string>
+    <string name="title_notifications">About</string>
+    <string-array name="Jenis">
+        <item>Sweet Charlie</item>
+        <item>Oso Grande</item>
+        <item>Tristan</item>
+        <item>Rosalinda</item>
+        <item>Nyoho</item>
+    </string-array>
+</resources>

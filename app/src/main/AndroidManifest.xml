@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dimas.projectakhirku">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".suhu"></activity>
+        <activity android:name=".rekomendasi" />
+        <activity
+            android:name=".splash"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.home.nyoho_desc"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".ui.home.rosa_desc"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".ui.home.tristan_desc"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".ui.home.oso_desc"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".ui.home.sweet_desc"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor" />
+    </application>
+
+</manifest>
